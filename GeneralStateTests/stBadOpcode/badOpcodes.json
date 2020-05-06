@@ -2,11 +2,11 @@
     "badOpcodes" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "Geth-1.9.6-unstable-63b18027-20190920",
-            "filling-tool-version" : "retesteth-0.0.1+commit.0ae18aef.Linux.g++",
-            "lllcversion" : "Version: 0.5.12-develop.2019.9.13+commit.2d601a4f.Linux.g++",
+            "filling-rpc-server" : "Geth-1.9.13-unstable",
+            "filling-tool-version" : "retesteth-0.0.2+commit.e8018889.Linux.g++",
+            "lllcversion" : "Error getting LLLC Version",
             "source" : "src/GeneralStateTestsFiller/stBadOpcode/badOpcodesFiller.json",
-            "sourceHash" : "d7431effc8faf28181afe76386e3f08fcfae02efdb8f3acef26df233750ef094"
+            "sourceHash" : "d3e9c20e43631c75ff3ac3137fccf06d98b219bcfedf0da6508905cd31a0adfe"
         },
         "env" : {
             "currentCoinbase" : "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -983,7 +983,7 @@
                 },
                 {
                     "indexes" : {
-                        "data" : 109,
+                        "data" : 110,
                         "gas" : 0,
                         "value" : 0
                     },
@@ -1037,15 +1037,6 @@
                 },
                 {
                     "indexes" : {
-                        "data" : 116,
-                        "gas" : 0,
-                        "value" : 0
-                    },
-                    "hash" : "0xd23f64cc62b526648cf76a5dc8205c7814fb2fa17a03475fa07b979bd25e00a1",
-                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
-                },
-                {
-                    "indexes" : {
                         "data" : 21,
                         "gas" : 0,
                         "value" : 0
@@ -1064,7 +1055,7 @@
                 },
                 {
                     "indexes" : {
-                        "data" : 110,
+                        "data" : 109,
                         "gas" : 0,
                         "value" : 0
                     },
@@ -1124,7 +1115,6 @@
                 "0x60016001600160016001600160016001a760006000f3",
                 "0x60016001600160016001600160016001a860006000f3",
                 "0x60016001600160016001600160016001a960006000f3",
-                "0x60016001600160016001600160016001aa60006000f3",
                 "0x60016001600160016001600160016001ab60006000f3",
                 "0x60016001600160016001600160016001ac60006000f3",
                 "0x60016001600160016001600160016001ad60006000f3",
