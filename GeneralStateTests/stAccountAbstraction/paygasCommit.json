@@ -1,12 +1,12 @@
 {
-    "paygasRevert" : {
+    "paygasCommit" : {
         "_info" : {
-            "comment" : "Verifies that SSTORE called before a PAYGAS doesn't get reverted.",
+            "comment" : "Verifies that SSTORE called after a PAYGAS gets applied.",
             "filling-rpc-server" : "Geth-1.9.14-unstable",
             "filling-tool-version" : "retesteth-0.0.3+commit.af99695f.Linux.g++",
             "lllcversion" : "Error getting LLLC Version",
-            "source" : "src/GeneralStateTestsFiller/stAccountAbstraction/paygasRevertFiller.json",
-            "sourceHash" : "7d9a0700989fcacb09f4ef05bbc685f2da775a94386d62eea5c90dd1b6361d20"
+            "source" : "src/GeneralStateTestsFiller/stAccountAbstraction/paygasCommitFiller.json",
+            "sourceHash" : "c8be4ff43101b914fb02021ab6ba2d70135cd945978190df30bcf6edaee2f58c"
         },
         "env" : {
             "currentCoinbase" : "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -24,7 +24,7 @@
                         "gas" : 0,
                         "value" : 0
                     },
-                    "hash" : "0x8cf6f92d6a9a9f6f7d30521fb6ea078c7937460f912d411ad1b7bab50d78ac3e",
+                    "hash" : "0x986bc1abccaec507f48ea50be29d4c2306bc2a59b25dae58c3a6ee4132e7374c",
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ]
@@ -32,7 +32,7 @@
         "pre" : {
             "0x095e7baea6a6c7c4c2dfeb977efac326af552d87" : {
                 "balance" : "0x0de0b6b3a7640000",
-                "code" : "0x3373ffffffffffffffffffffffffffffffffffffffff1460245736601f57005b600080fd5b60ff60ff556004aa630badc0de60005560006000fd",
+                "code" : "0x3373ffffffffffffffffffffffffffffffffffffffff1460245736601f57005b600080fd5b60ff60ff556004aa630c0ffee060005560006000",
                 "nonce" : "0x00",
                 "storage" : {
                     "0x00" : "0x00",
